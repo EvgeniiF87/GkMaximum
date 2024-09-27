@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "979122165926",
+    "project_id": "gkmax1",
+    "storage_bucket": "gkmax1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979122165926:android:08793df8b1b9a8330dbc67",
+        "android_client_info": {
+          "package_name": "com.evgeniikld.GkMaximum"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGEfmzbiWmWz6SFBo3_IbJk4cmGo6z73w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

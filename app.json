@@ -1,0 +1,78 @@
+{
+  "expo": {
+    "name": "GkMaximum",
+    "slug": "GkMaximum",
+    "version": "1.8.8",
+    "orientation": "portrait",
+    "icon": "./assets/icon2.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/animated-splash-screen.gif",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "googleServicesFile": "GoogleService-Info.plist",
+      "associatedDomains": ["applinks:gkmaximum.backend.demowts.ru"],
+      "entitlements": {
+        "aps-environment": "production"
+      },
+      "supportsTablet": true,
+      "bundleIdentifier": "com.evgeniikld.GkMaximum"
+    },
+    "android": {
+      "googleServicesFile": "google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.evgeniikld.GkMaximum",
+      "permissions": [
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.FOREGROUND_SERVICE",
+        "android.permission.ACCESS_BACKGROUND_LOCATION"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      // "@react-native-firebase/app",
+      // [
+      //   "expo-build-properties",
+      //   {
+      //     "ios": {
+      //       "useFrameworks": "static"
+      //     }
+      //   }
+      // ],
+      [
+        "expo-location",
+        {
+          "isAndroidBackgroundLocationEnabled": true,
+          "isIosBackgroundLocationEnabled": true
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": true,
+          "cameraPermission": true
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "8886ff01-0f88-43e8-9744-8ed85d6e37f2"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/8886ff01-0f88-43e8-9744-8ed85d6e37f2"
+    }
+  }
+}
